@@ -1,0 +1,14 @@
+﻿.table-auto {
+    border: 2px solid lightblue;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+    .table-auto th,
+    .table-auto td {
+        border: 2px solid lightblue;
+        padding: 5px;
+    }
+a{
+    text-decoration: none;
+}

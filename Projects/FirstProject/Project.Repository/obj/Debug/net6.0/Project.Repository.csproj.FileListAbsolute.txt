@@ -1,0 +1,17 @@
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\bin\Debug\net6.0\Project.Repository.deps.json
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\bin\Debug\net6.0\Project.Repository.runtimeconfig.json
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\bin\Debug\net6.0\Project.Repository.dll
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\bin\Debug\net6.0\ref\Project.Repository.dll
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\bin\Debug\net6.0\Project.Repository.pdb
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.AssemblyReference.cache
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\obj\Debug\net6.0\Project.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfoInputs.cache
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfo.cs
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CoreCompileInputs.cache
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CopyComplete
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\obj\Debug\net6.0\Project.Repository.dll
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\obj\Debug\net6.0\ref\Project.Repository.dll
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\obj\Debug\net6.0\Project.Repository.pdb
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\obj\Debug\net6.0\Project.Repository.genruntimeconfig.cache
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\bin\Debug\net6.0\Project.Entities.dll
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Repository\bin\Debug\net6.0\Project.Entities.pdb

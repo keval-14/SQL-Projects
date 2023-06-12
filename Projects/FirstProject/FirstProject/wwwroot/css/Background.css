@@ -1,0 +1,13 @@
+﻿body {
+    height: 100vh;
+    width: 100vh;
+    align-content: center;
+    display: contents;
+}
+
+html {
+    background-color: aquamarine;
+    background-image: url("reg background.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

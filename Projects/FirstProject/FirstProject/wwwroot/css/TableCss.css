@@ -1,0 +1,56 @@
+﻿.table-auto {
+    border: 2px solid lightblue;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+    .table-auto th,
+    .table-auto td {
+        border: 2px solid #d1d1d1;
+        padding: 5px;
+    }
+
+a {
+    text-decoration: none;
+}
+
+.isActive {
+    border: 1px solid #b5b5b5 !important;
+    background-color: #0384bd !important;
+    /* border-radius: 5px !important; */
+    /* display: inline-block !important; */
+    color: white !important;
+    /* font-size: 16px !important; */
+    padding: 5px 8px !important;
+}
+
+.anchorstyle {
+    cursor: pointer;
+    border: 1px solid #8d8d8d;
+    padding: 3px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 0px 4px;
+}
+
+.page-size-dd {
+    width: 114px;
+    height: 41px;
+    font-size: 19px;
+    margin-left: 14px;
+    margin-top: -5px;
+}
+
+/*partial view save, edit, delete btn*/
+
+.save {
+    display: none;
+    background: #32ad60;
+    color: #fff;
+}
+
+    .save:hover {
+        background: #27854a;
+    }
+ 
+

@@ -1,0 +1,27 @@
+﻿@model Project.Entities.ViewModels.HomeViewModel;
+@if (Model != null && Model.MissionList != null)
+{
+   <input type="hidden" id="hiddenMissionCount" value="@Model.MissionList.FirstOrDefault()?.TotalRecords" />
+    
+            <div class="tbody">
+                @foreach (var item in @Model.MissionList)
+                {
+                    <div class="tr">
+                        <div class="td index" scope="row">@item.No</div>
+                        <div class="td text-center" scope="row">@item.Title</div>
+                        <div class="td text-center" scope="row">@item.City</div>
+                        <div class="td text-center" scope="row">@item.Country</div>
+                        <div class="td text-center" scope="row">@item.Theme</div>
+                        <div class="td text-center" scope="row">@item.MissionType</div>
+                        <div class="td text-center" scope="row"> @Html.Raw(@item.Description)...</div>
+                        <div class="td text-center" scope="row"> @Html.Raw(@item.ShortDescription)...</div>
+                        <div class="td text-center" scope="row">@item.OrganizationName</div>
+                        <div class="td text-center" scope="row">@item.StartDate?.ToString("dd-MM-yyyy")</div>
+                        <div class="td text-center" scope="row">@item.EndDate?.ToString("dd-MM-yyyy")</div>
+                        <div class="td text-center" scope="row">@item.AVGRating</div>
+                        <div class="td text-center" scope="row">@item.SkillList</div>
+                    </div>
+                }
+            </div>
+       
+}

@@ -1,0 +1,31 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+a{
+    text-decoration: none;
+}
+.isActive {
+    border: 1px solid #b5b5b5;
+    background-color: #bdbdbd;
+    width: 24px;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    padding-left: 6px;
+}

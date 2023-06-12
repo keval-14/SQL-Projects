@@ -1,0 +1,85 @@
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.deps.json
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.runtimeconfig.json
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\ref\Project.Repository.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.pdb
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.AssemblyReference.cache
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfoInputs.cache
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfo.cs
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CoreCompileInputs.cache
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\ref\Project.Repository.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.pdb
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.genruntimeconfig.cache
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Entities.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Entities.pdb
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CopyComplete
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.deps.json
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.runtimeconfig.json
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\ref\Project.Repository.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.pdb
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Entities.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Entities.pdb
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.AssemblyReference.cache
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfoInputs.cache
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfo.cs
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CoreCompileInputs.cache
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CopyComplete
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\ref\Project.Repository.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.pdb
+C:\Users\pci243\Desktop\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.genruntimeconfig.cache
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.deps.json
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.runtimeconfig.json
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.dll
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\ref\Project.Repository.dll
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.pdb
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Entities.dll
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Entities.pdb
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.AssemblyReference.cache
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfoInputs.cache
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfo.cs
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CoreCompileInputs.cache
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CopyComplete
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.dll
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\ref\Project.Repository.dll
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.pdb
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.genruntimeconfig.cache
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.AssemblyReference.cache
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfoInputs.cache
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfo.cs
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CoreCompileInputs.cache
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.deps.json
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.runtimeconfig.json
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Repository.pdb
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Entities.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\bin\Debug\net6.0\Project.Entities.pdb
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CopyComplete
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\refint\Project.Repository.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.pdb
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\Project.Repository.genruntimeconfig.cache
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\Project.Repository\obj\Debug\net6.0\ref\Project.Repository.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\bin\Debug\net6.0\Project.Repository.deps.json
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\bin\Debug\net6.0\Project.Repository.runtimeconfig.json
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\bin\Debug\net6.0\Project.Repository.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\bin\Debug\net6.0\ref\Project.Repository.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\bin\Debug\net6.0\Project.Repository.pdb
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\bin\Debug\net6.0\Project.Entities.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\bin\Debug\net6.0\Project.Entities.pdb
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.AssemblyReference.cache
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\obj\Debug\net6.0\Project.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfoInputs.cache
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfo.cs
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CoreCompileInputs.cache
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CopyComplete
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\obj\Debug\net6.0\Project.Repository.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\obj\Debug\net6.0\ref\Project.Repository.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\obj\Debug\net6.0\Project.Repository.pdb
+D:\tatvasoft\training\sql\Projects\FilterdMissions\Project.Repository\obj\Debug\net6.0\Project.Repository.genruntimeconfig.cache

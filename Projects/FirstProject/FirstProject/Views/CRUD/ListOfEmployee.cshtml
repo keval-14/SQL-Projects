@@ -1,0 +1,249 @@
+﻿@using FirstProject.Common
+@model FirstProject.Models.ShowPaging;
+
+@{
+    ViewData["Title"] = "View";
+    Layout = "";
+}
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FirstProject</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @*<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />*@
+    <link rel="stylesheet" href="~/FirstProject.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/TableCss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+</head>
+<div class="container mt-5">
+
+    <h1 class="mt-5">List of All Employees</h1>
+
+    <p>
+        <a asp-action="AddNewEmployee">Create New</a>
+    </p>
+    <div class="d-flex">
+
+        <label for="pageSize">Page Size: </label>
+        <select id="pageSize" class="form-select page-size-dd mb-3" aria-label=".form-select example" onchange="changePageSize()">
+            <option selected value="5">5</option>
+            <option value="7">7</option>
+            <option value="10">10</option>
+            <option value="13">13</option>
+            <option value="15">15</option>
+            <option value="18">18</option>
+            <option value="20">20</option>
+        </select>
+
+    </div>
+
+
+    <div id="employee_list">
+    </div>
+
+
+
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@*@await RenderSectionAsync("Scripts", required: false)*@
+
+
+<script>
+
+        var initialSort = "";
+        var initialSortOrder = "";
+
+        //OnLoad Function for load initial data
+        $(document).ready(function (){
+        var ps = document.getElementById("pageSize").value;
+        ajaxCallForGetEmployeeList(ps,1,initialSort,initialSortOrder,initialSortOrder);
+        })
+
+        //Function for pagination
+        function paginationData(PNO){
+            var ps = document.getElementById("pageSize").value;
+
+            ajaxCallForGetEmployeeList(ps,PNO,initialSort,initialSortOrder);
+        }
+
+
+        //function for change page size
+        function changePageSize(){
+            var ps = document.getElementById("pageSize").value;
+
+            ajaxCallForGetEmployeeList(ps,1,initialSort,initialSortOrder);
+        }
+
+        //function for sorting
+        function sortData(SortValue){
+            var sortOrder = document.getElementById(SortValue).getAttribute("value");
+            var ps = document.getElementById("pageSize").value;
+
+            if(sortOrder == "true"){
+                initialSort = SortValue;
+                initialSortOrder = 1;
+                ajaxCallForGetEmployeeList(ps,1,SortValue,1);
+            }
+            else{
+                initialSort = SortValue;
+                initialSortOrder = 0;
+                ajaxCallForGetEmployeeList(ps,1,SortValue,0);
+            }
+        }
+
+
+        //function for AJAX Call
+        function ajaxCallForGetEmployeeList(PS, CPN, SV, SO){
+                    var id = "#"+SV;
+                    var upArrowId = "#"+SV+"-Asc"
+                    var downArrowId = "#"+SV+"-Desc"
+            $.ajax({
+                url: "@Url.Action("ListOfEmployeeAjax","CRUD")",
+                type: "POST",
+                data: { pageSize:PS,page:CPN,sortValue:SV,sortOreder:SO},
+                dataType: "html",
+                success: function (responce) {
+                    $("#employee_list").html("");
+                    $("#employee_list").html(responce);
+                    if(SO == 1){
+                         $(id).attr("value","false");
+                         $(upArrowId).addClass("active-arrow").removeClass("deactive-arrow");
+                         $(downArrowId).addClass("deactive-arrow").removeClass("active-arrow");
+                    }
+                    else{
+                         $(id).attr("value","true");
+                         $(downArrowId).addClass("active-arrow").removeClass("deactive-arrow");
+                         $(upArrowId).addClass("deactive-arrow").removeClass("active-arrow");
+                    }
+                }
+             });
+        }
+
+        //function for delete Employee
+        function deleteEmployeeById(empId){
+
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "All the data of Employee will be deleted!!!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+
+                        $.ajax({
+                                    url: "@Url.Action("DeleteEmployee","CRUD")",
+                                    type: "POST",
+                                    data: { EmpId:empId},
+                                    dataType: "html",
+                                    success: function (responce) {
+                                        if(responce){
+
+                                            var toastMixin = Swal.mixin({
+                                                    toast: true,
+                                                    icon: 'error',
+                                                    title: 'General Title',
+                                                    animation: false,
+                                                    position: 'top-right',
+                                                    showConfirmButton: false,
+                                                    timer: 2500,
+                                                    timerProgressBar: true,
+                                                    didOpen: (toast) => {
+                                                        toast.addEventListener('mouseenter', Swal.stopTimer)
+                                                        toast.addEventListener('mouseleave', Swal.resumeTimer)
+                                                    }
+                                                    });
+
+                                                    toastMixin.fire({
+                                                    animation: true,
+                                                    title: 'Deleted!!'
+                                                    });
+
+                                            paginationData(1);
+                                        }
+                                        else
+                                        {
+                                            alert("Not deleted")
+                                        }
+                                    }
+                                });
+                }
+            });
+        }
+
+        //edit record
+
+        $(document).on('click', '.edit', function() {
+          $(this).parent().siblings('td.data').each(function() {
+            var content = $(this).html().trim();
+            $(this).html('<input value="' + content + '" />');
+          });
+
+          $(this).siblings('.save').show();
+          $(this).siblings('.view').hide();
+          $(this).siblings('.delete').hide();
+          $(this).siblings('.v-line').hide();
+
+          $(this).hide();
+        });
+
+
+        //save edited record
+        $(document).on('click', '.save', function() {
+
+        var empDetails = [];
+          $('input').each(function() {
+            var content = $(this).val();
+            $(this).html(content);
+            $(this).contents().unwrap();
+            empDetails.push(content);
+          });
+            
+          var EmpId = $(this).attr("id");
+           $.ajax({
+                url: "@Url.Action("UpdateEmployee","CRUD")",
+                type: "POST",
+                data: { EmployeeData:empDetails, empId:EmpId},
+                dataType: "html",
+                success: function (responce) {
+                    var toastMixin = Swal.mixin({
+                                                    toast: true,
+                                                    icon: 'success',
+                                                    title: 'General Title',
+                                                    animation: false,
+                                                    position: 'top-right',
+                                                    showConfirmButton: false,
+                                                    timer: 2500,
+                                                    timerProgressBar: true,
+                                                    didOpen: (toast) => {
+                                                        toast.addEventListener('mouseenter', Swal.stopTimer)
+                                                        toast.addEventListener('mouseleave', Swal.resumeTimer)
+                                                    }
+                                                    });
+
+                                                    toastMixin.fire({
+                                                    animation: true,
+                                                    title: 'Updated!!'
+                                                    });
+
+                                            paginationData(1);
+                    }
+             });
+
+          console.log(empDetails[0]);
+          $(this).siblings('.view').show();
+          $(this).siblings('.edit').show();
+          $(this).siblings('.delete').show();
+          $(this).siblings('.v-line').show();
+          $(this).hide();
+
+        });
+</script>

@@ -1,0 +1,14 @@
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\bin\Debug\net6.0\UnitOfWork.DataAccess.deps.json
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\bin\Debug\net6.0\UnitOfWork.DataAccess.dll
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\bin\Debug\net6.0\ref\UnitOfWork.DataAccess.dll
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\bin\Debug\net6.0\UnitOfWork.DataAccess.pdb
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\obj\Debug\net6.0\UnitOfWork.DataAccess.csproj.AssemblyReference.cache
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\obj\Debug\net6.0\UnitOfWork.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\obj\Debug\net6.0\UnitOfWork.DataAccess.AssemblyInfoInputs.cache
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\obj\Debug\net6.0\UnitOfWork.DataAccess.AssemblyInfo.cs
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\obj\Debug\net6.0\UnitOfWork.DataAccess.csproj.CoreCompileInputs.cache
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\obj\Debug\net6.0\UnitOfWork.DataAccess.dll
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\obj\Debug\net6.0\ref\UnitOfWork.DataAccess.dll
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\obj\Debug\net6.0\UnitOfWork.DataAccess.pdb
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\bin\Debug\net6.0\UnitOfWork.DataAccess.runtimeconfig.json
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.DataAccess\obj\Debug\net6.0\UnitOfWork.DataAccess.genruntimeconfig.cache

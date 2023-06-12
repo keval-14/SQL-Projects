@@ -1,0 +1,15 @@
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\bin\Debug\net6.0\UnitOfWork.Interfaces.deps.json
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\bin\Debug\net6.0\UnitOfWork.Interfaces.dll
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\bin\Debug\net6.0\ref\UnitOfWork.Interfaces.dll
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\bin\Debug\net6.0\UnitOfWork.Interfaces.pdb
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\bin\Debug\net6.0\UnitOfWork.DataAccess.dll
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\bin\Debug\net6.0\UnitOfWork.DataAccess.pdb
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\obj\Debug\net6.0\UnitOfWork.Interfaces.csproj.AssemblyReference.cache
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\obj\Debug\net6.0\UnitOfWork.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\obj\Debug\net6.0\UnitOfWork.Interfaces.AssemblyInfoInputs.cache
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\obj\Debug\net6.0\UnitOfWork.Interfaces.AssemblyInfo.cs
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\obj\Debug\net6.0\UnitOfWork.Interfaces.csproj.CoreCompileInputs.cache
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\obj\Debug\net6.0\UnitOfWork.Interfaces.csproj.CopyComplete
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\obj\Debug\net6.0\UnitOfWork.Interfaces.dll
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\obj\Debug\net6.0\ref\UnitOfWork.Interfaces.dll
+D:\tatvasoft\training\sql\Projects\UnitOfWork\UnitOfWork.Interfaces\obj\Debug\net6.0\UnitOfWork.Interfaces.pdb

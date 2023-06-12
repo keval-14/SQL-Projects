@@ -1,0 +1,36 @@
+﻿@model Project.Entities.ViewModels.HomeViewModel;
+@if (Model != null && Model.MissionList != null)
+{
+   <input type="hidden" id="hiddenMissionCount" value="@Model.MissionList.FirstOrDefault()?.TotalCount" />
+    
+            <div class="tbody">
+                @foreach (var item in @Model.MissionList)
+                {
+                    <div class="tr">
+                        <div class="td index" scope="row">@item.RowNum</div>
+                        <div class="td text" scope="row">@item.title</div>
+                       @* <div class="td text-center" scope="row">
+                            @if(item.avg_rating != null)
+                            {
+                                @item.avg_rating <img src="./images/star.png" class="ms-1">
+                            }else
+                            {
+                                <p>Not Rated</p>
+                            }
+                        </div>*@
+                        <div class="td text-center" scope="row">@Model.CountryList.FirstOrDefault(country => country.Key == Convert.ToString(@item.country_id))?.Value</div>
+                        <div class="td text-center" scope="row">@Model.CityList.FirstOrDefault(city => city.Key == Convert.ToString(@item.city_id))?.Value</div>
+                        <div class="td text-center" scope="row">@Model.ThemeList.FirstOrDefault(theme => theme.Key == Convert.ToString(@item.theme_id))?.Value</div>
+                        <div class="td text-center" scope="row">@item.mission_type</div>
+                        <div class="td text-center" scope="row">@item.organization_name</div>
+                        <div class="td text-center" scope="row">@item.availability</div>
+                        <div class="td text-center" scope="row">@Convert.ToString(item.start_date)?.Split(' ')[0]</div>
+                        <div class="td text-center" scope="row">@Convert.ToString(item.end_date)?.Split(' ')[0]</div>
+                        <div class="td text-center" scope="row">@Convert.ToString(item.deadline)?.Split(' ')[0]</div>
+                        <div class="td text-center" scope="row">@item.TotalCount</div>
+                       
+                    </div>
+                }
+            </div>
+       
+}

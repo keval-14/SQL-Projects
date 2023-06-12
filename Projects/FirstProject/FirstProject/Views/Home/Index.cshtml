@@ -1,0 +1,367 @@
+﻿@model Project.Entities.ViewModels.HomeViewModel;
+@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+
+</head>
+<div>
+    @if (Model != null)
+    {
+        <div class="d-flex justify-content-between">
+
+            <h5 for="filtersForMissoins">Mission Filters</h5>
+            <button class="clearAllBtn mb-2" onclick="window.location.reload()">Clear All</button>
+        </div>
+        <div id="filtersForMissoins" class="container row">
+
+            @*search*@
+            <div class="col-4"><label for="searchEmployee">Search: </label> <input id="searchEmployee" class="form-control filter" type="search" /></div>
+
+            @*min rating*@
+            <div class="col-4">
+                <label for="minRatings">Mininum Ratings </label>
+                <select id="minRatings" class="form-select filter form-select-lg" aria-label=".form-select-lg example">
+                    <option selected>ALL</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+
+            @*max rating*@
+            <div class="col-4">
+                <label for="maxRatings">Maximum Ratings </label>
+                <select id="maxRatings" class="form-select filter form-select-lg" aria-label=".form-select-lg example">
+                    <option selected>ALL</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            @*country*@
+            <div class="col-4">
+                <label for="missionCountry">Select Country: </label>
+                <select id="missionCountry" class="form-select filter form-select-lg" aria-label=".form-select-lg example">
+                    <option selected>ALL</option>
+                    @foreach (var item in Model.CountryList)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+            </div>
+
+            @*city*@
+            <div class="col-4">
+                <label for="missionCity">Select City: </label>
+                <select id="missionCity" class="form-select filter form-select-lg" aria-label=".form-select-lg example">
+                    <option selected>ALL</option>
+                    @foreach (var item in Model.CityList)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+            </div>
+
+            @*theme*@
+            <div class="col-4">
+                <label for="missionTheme">Select Theme: </label>
+                <select id="missionTheme" class="form-select filter form-select-lg" aria-label=".form-select-lg example">
+                    <option selected>ALL</option>
+                    @foreach (var item in Model.ThemeList)
+                    {
+                        <option value="@item.Key">@item.Value</option>
+                    }
+                </select>
+            </div>
+
+
+
+            @*start date*@
+            <div class="col-4">
+                <label for="startDate">StartDate:</label>
+                <input id="startDate" type="date" class="filter form-control" />
+            </div>
+
+            @*end date*@
+            <div class="col-4">
+                <label for="endDate">EndDate:</label>
+                <input id="endDate" type="date" class="filter form-control" />
+            </div>
+
+            @*skills*@
+            <div class="col-4">
+                <div id="skillDiv" class="mt-3">
+                    <label for="missionSkills">MissionSkills: </label>
+                    <p>
+                        <button id="applySkills" class="btn border filter text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Select Skills
+                        </button>
+                    </p>
+                    <div class="collapse position-absolute" id="collapseExample">
+                        <div class="card card-body skill-filter">
+                            <div class="form-check">
+                                <input class="form-check-input applySkills" type="checkbox" value="ALL" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    ALL
+                                </label>
+                            </div>
+                            @foreach (var item in Model.SkillList)
+                            {
+                                <div class="form-check">
+                                    <input class="form-check-input applySkills" type="checkbox" value="@item.Key" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        @item.Value
+                                    </label>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+        @if (Model != null && Model.MissionList != null)
+        {
+
+            @* <input type="hidden" class="missionTotalCount" value="@Model.MissionList.FirstOrDefault()?.TotalCount" />*@
+            @if (@Model.MissionList.FirstOrDefault() != null)
+            {
+
+
+                <div class="d-flex justify-content-between mt-3">
+
+                    <div>
+
+                        <h5 class="mt-3">Total Missions: <span class="missionTotalCount">@Model.MissionList.FirstOrDefault()?.TotalRecords</span></h5>
+                    </div>
+                    <div>
+
+                        <label for="pageSize">Page Size: </label>
+                        <select id="pageSize" class="form-select filter form-select-lg mb-3" aria-label=".form-select-lg example">
+                            <option selected value="5">5</option>
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="table table-striped" id="missionlisttable">
+                    <div class="thead">
+                        <div class="tr">
+                            <div class="th index" scope="col">Sr.</div>
+                            <div class="th text-center" scope="col">Title</div>
+                            <div class="th text-center" scope="col">City</div>
+                            <div class="th text-center" scope="col">Country</div>
+                            <div class="th text-center" scope="col">Theme</div>
+                            <div class="th text-center" scope="col">Mission Type</div>
+                            <div class="th text-center" scope="col">Description</div>
+                            <div class="th text-center" scope="col">ShortDescription</div>
+                            <div class="th text-center" scope="col">Organization Name</div>
+                            <div class="th text-center" scope="col">StartDate</div>
+                            <div class="th text-center" scope="col">EndDate</div>
+                            <div class="th text-center" scope="col">Average Ratings</div>
+                            <div class="th text-center" scope="col">Skills</div>
+                        </div>
+                    </div>
+
+
+
+                    <div id="MissionTabel" class="tbody">
+                    </div>
+                </div>
+            }
+
+            @*<div class="tabelpagination d-flex justify-content-end mt-5"></div>*@
+        }
+
+    }
+</div>
+<script>
+
+    $("#searchEmployee").keyup(function (e) {
+        var SearchText = $(this).val();
+        console.log(SearchText);
+        pagination(FirstPage, SearchText);
+    });
+    $("#missionCity").change(function (e) {
+        pagination(FirstPage);
+    });
+    $("#missionCountry").change(function (e) {
+
+        pagination(FirstPage);
+    });
+    $("#missionTheme").change(function (e) {
+        pagination(FirstPage);
+    });
+    $("#startDate").change(function (e) {
+        pagination(FirstPage);
+    });
+    $("#endDate").change(function (e) {
+        pagination(FirstPage);
+    });
+    $(".applySkills").click(function (e) {
+
+        pagination(FirstPage);
+    });
+    $("#minRatings").change(function (e) {
+        pagination(FirstPage);
+    });
+    $("#maxRatings").change(function (e) {
+        pagination(FirstPage);
+    });
+
+
+
+
+    //change _search skill list Page size
+    var pageSize = $("#pageSize").val();
+    var FirstPage = 1;
+    pagination(1);
+    function pagination(pageNumber, SearchText) {
+        $("#pageSize").change(function (e) {
+            pageSize = $(this).val();
+            pageNumber = $(".pagebtn.active").val();
+            pagination(1);
+        });
+
+        var countryId = $("#missionCountry").val();
+        if (countryId == "ALL") {
+            countryId = null;
+        }
+        var cityId = $("#missionCity").val();
+        if (cityId == "ALL") {
+            cityId = null;
+        }
+        var themeId = $("#missionTheme").val();
+        if (themeId == "ALL") {
+            themeId = null;
+        }
+
+
+        var minRating = $("#minRatings").val();
+        if (minRating == "ALL") {
+            minRating = null;
+        }
+        var maxRating = $("#maxRatings").val();
+        if (maxRating == "ALL") {
+            maxRating = null;
+        }
+
+
+        var startDate = $("#startDate").val();
+        if (startDate != "") {
+            startDate = startDate.concat(" 00:00:00.000");
+        }
+        else {
+            startDate = null;
+        }
+        var endDate = $("#endDate").val();
+        if (endDate != "") {
+            endDate = endDate.concat(" 00:00:00.000");
+        }
+        else {
+            endDate = null;
+        }
+
+        var allSkills = [];
+        var allSkillString = null;
+        $.each($(".form-check-input:checked"), function () {
+            allSkills.push($(this).val());
+        });
+        if (allSkills.length != 0 && allSkills[0] != "ALL") {
+            allSkillString = allSkills.toString();
+
+        }
+
+
+
+        $.ajax({
+            url: "@Url.Action("MissionPagination","Home")",
+            type: "POST",
+            data: { queryParams: { Search:SearchText, City:cityId, Country:countryId, Theme:themeId, Skill:allSkillString, StartDate:startDate, EndDate:endDate,MinRating:minRating, MaxRating:maxRating, PageIndex:pageNumber, PageSize:pageSize} },
+            dataType: "html",
+            success: function (responce) {
+                if (responce != null) {
+                    $('#MissionTabel').empty();
+                    $('#MissionTabel').html(responce);
+
+                    if ($("#hiddenMissionCount").val() != 0) {
+                        $(".missionTotalCount").text($("#hiddenMissionCount").val());
+                    }
+                    else {
+                        $(".missionTotalCount").text(0);
+                    }
+
+                    var totalRecords = $(".missionTotalCount").text();
+                    var totalPages = Math.ceil(totalRecords / pageSize);
+
+                    //console.log(totalPages, totalRecords);
+                    var paginationHtml = '';
+                    $('.tabelpagination').html(paginationHtml);
+                    if (totalPages > 1) {
+                        paginationHtml = '';
+                        paginationHtml += '<buttons class="border not-selectable pagebtn">«</buttons>';
+                        paginationHtml += '<buttons class="border not-selectable pagebtn"><</buttons>';
+                        for (var i = 1; i <= totalPages; i++) {
+                            if (i === pageNumber) {
+                                paginationHtml += '<buttons class="border not-selectable pagebtn active">' + i + '</buttons>';
+                            } else {
+                                paginationHtml += '<buttons class="border not-selectable pagebtn">' + i + '</buttons>';
+                            }
+                        }
+                        paginationHtml += '<buttons class="border not-selectable pagebtn">></buttons>';
+                        paginationHtml += '<buttons class="border not-selectable pagebtn">»</buttons>';
+
+                        $('.tabelpagination').html(paginationHtml);
+                        $('.pagebtn').on('click', function () {
+                            var direction = $(this).text();
+                            //console.log(direction);
+                            if (direction === '«') {      // First page
+                                pageNumber = 1;
+                            }
+                            else if (direction === '»') { // Last page
+                                pageNumber = totalPages;
+                            }
+                            else if (direction === '<') { // Previous page
+                                if (pageNumber > 1) {
+                                    pageNumber--;
+                                }
+                            }
+                            else if (direction === '>') { // Next page
+                                if (pageNumber < totalPages) {
+                                    pageNumber++;
+                                }
+                            }
+                            else if (!isNaN(direction)) { // Page number
+                                pageNumber = parseInt(direction);
+                            }
+                            if (pageNumber < 1) {
+                                pageNumber = 1;
+                            }
+                            // Fetch mission list with updated page number
+                            pagination(pageNumber);
+                        });
+                    }
+                    //console.log(paginationHtml);
+                }
+            },
+            error: function (e) {
+                console.log(e);
+            }
+        });
+    }
+
+</script>

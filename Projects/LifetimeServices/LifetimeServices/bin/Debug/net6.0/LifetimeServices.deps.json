@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LifetimeServices/1.0.0": {
+        "dependencies": {
+          "LifetimeServices.Repository": "1.0.0"
+        },
+        "runtime": {
+          "LifetimeServices.dll": {}
+        }
+      },
+      "LifetimeServices.Repository/1.0.0": {
+        "runtime": {
+          "LifetimeServices.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LifetimeServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LifetimeServices.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

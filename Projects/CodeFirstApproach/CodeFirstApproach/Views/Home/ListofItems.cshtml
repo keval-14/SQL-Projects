@@ -1,0 +1,50 @@
+﻿@model CodeFirstApproach.Models.HomeViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<table class="table table-auto ">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>SSN Code</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model.items)
+        {
+            <tr>
+                @*  @{
+                    var mId = item.cityId;
+                    var titleId = item.cityId + "m-title";
+
+                    }
+                    <td id=@titleId>*@
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.Item_Name)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.Item_Description)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.Item_Price)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.Item_Quantity)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.Item_SSNCode)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.Item_Status)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

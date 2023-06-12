@@ -1,0 +1,42 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+/*table css*/
+.table-auto {
+    border: 2px solid lightblue;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+    .table-auto th,
+    .table-auto td {
+        border: 2px solid #d1d1d1;
+        padding: 5px;
+    }
+
+.add-new-item-container {
+    background-color: #e1e1e1;
+    padding-left: 107px !important;
+    padding-right: 93px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    margin-top: 12%;
+    border-radius: 170px 0px 170px 0px;
+}

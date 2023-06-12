@@ -1,0 +1,12 @@
+D:\tatvasoft\training\sql\Projects\LifetimeServices\LifetimeServices.Repository\bin\Debug\net6.0\LifetimeServices.Repository.deps.json
+D:\tatvasoft\training\sql\Projects\LifetimeServices\LifetimeServices.Repository\bin\Debug\net6.0\LifetimeServices.Repository.dll
+D:\tatvasoft\training\sql\Projects\LifetimeServices\LifetimeServices.Repository\bin\Debug\net6.0\ref\LifetimeServices.Repository.dll
+D:\tatvasoft\training\sql\Projects\LifetimeServices\LifetimeServices.Repository\bin\Debug\net6.0\LifetimeServices.Repository.pdb
+D:\tatvasoft\training\sql\Projects\LifetimeServices\LifetimeServices.Repository\obj\Debug\net6.0\LifetimeServices.Repository.csproj.AssemblyReference.cache
+D:\tatvasoft\training\sql\Projects\LifetimeServices\LifetimeServices.Repository\obj\Debug\net6.0\LifetimeServices.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\tatvasoft\training\sql\Projects\LifetimeServices\LifetimeServices.Repository\obj\Debug\net6.0\LifetimeServices.Repository.AssemblyInfoInputs.cache
+D:\tatvasoft\training\sql\Projects\LifetimeServices\LifetimeServices.Repository\obj\Debug\net6.0\LifetimeServices.Repository.AssemblyInfo.cs
+D:\tatvasoft\training\sql\Projects\LifetimeServices\LifetimeServices.Repository\obj\Debug\net6.0\LifetimeServices.Repository.csproj.CoreCompileInputs.cache
+D:\tatvasoft\training\sql\Projects\LifetimeServices\LifetimeServices.Repository\obj\Debug\net6.0\LifetimeServices.Repository.dll
+D:\tatvasoft\training\sql\Projects\LifetimeServices\LifetimeServices.Repository\obj\Debug\net6.0\ref\LifetimeServices.Repository.dll
+D:\tatvasoft\training\sql\Projects\LifetimeServices\LifetimeServices.Repository\obj\Debug\net6.0\LifetimeServices.Repository.pdb

@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6c470ee5-31f2-4308-b55e-d261cb02efde": {
+      "ProjectGuid": "6c470ee5-31f2-4308-b55e-d261cb02efde",
+      "DisplayName": "UnitOfWork",
+      "ColorIndex": 0
+    },
+    "d006f683-2fb6-4084-af81-e2d2d49b777b": {
+      "ProjectGuid": "d006f683-2fb6-4084-af81-e2d2d49b777b",
+      "DisplayName": "UnitOfWork.Repository",
+      "ColorIndex": 1
+    },
+    "ff5088ca-5b8f-434d-a611-6c654b75d2a5": {
+      "ProjectGuid": "ff5088ca-5b8f-434d-a611-6c654b75d2a5",
+      "DisplayName": "UnitOfWork.Data",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "334e378e-31ab-4447-a764-c71f4b8ec84d": {
+      "ProjectGuid": "334e378e-31ab-4447-a764-c71f4b8ec84d",
+      "DisplayName": "UnitOfWork.DataAccess",
+      "ColorIndex": 3
+    },
+    "81f844e6-5c43-49da-b6bc-40eedd495e72": {
+      "ProjectGuid": "81f844e6-5c43-49da-b6bc-40eedd495e72",
+      "DisplayName": "UnitOfWork.Interfaces",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

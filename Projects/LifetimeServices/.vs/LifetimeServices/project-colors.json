@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "188e79d4-a848-4fc9-83ad-a6cbd5c0b217": {
+      "ProjectGuid": "188e79d4-a848-4fc9-83ad-a6cbd5c0b217",
+      "DisplayName": "LifetimeServices",
+      "ColorIndex": 0
+    },
+    "05523491-6ede-46dc-a947-610f209f0bab": {
+      "ProjectGuid": "05523491-6ede-46dc-a947-610f209f0bab",
+      "DisplayName": "LifetimeServices.Repository",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

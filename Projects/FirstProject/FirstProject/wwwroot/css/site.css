@@ -1,0 +1,140 @@
+#filtersForMissoins {
+    border: 1px solid #737373;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.filter {
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+}
+
+    .filter:focus {
+        box-shadow: none;
+        border-color: black;
+    }
+
+.pagebtn.active, .pagebtn:hover {
+    color: white;
+    background: #0000008c 0% 0% no-repeat padding-box;
+}
+
+#pageSize {
+    margin-top: 5px;
+    width: 85px;
+    height: 45px;
+    padding: 0px 0px 0px 10px;
+}
+
+.pagebtn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.table .tbody .tr {
+    border: 1px solid black;
+    border-top: none;
+    width: fit-content;
+}
+
+.table .thead {
+    border: 1px solid black;
+    background: #0000008c;
+    color: white;
+    height: 50px;
+    width: fit-content;
+}
+
+.table .tr {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.table .td, .table .th {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .table .td.index, .table .th.index {
+        width: 50px;
+    }
+
+    .table .td.text, .table .th.text {
+        width: 500px;
+        justify-content: flex-start;
+    }
+
+.footer {
+    position: relative !important;
+}
+
+#missionlisttable {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.filter {
+    width: 250px !important;
+    height: 40px;
+    font-size: 15px;
+}
+
+    .filter:focus {
+        box-shadow: none !important;
+        border-color: black !important;
+    }
+
+.skill-filter {
+    width: 250px;
+}
+
+i.fa.fa-sort {
+    padding-left: 5px;
+}
+
+.clearAllBtn{
+
+background-color: #737373;
+color: white;
+border: 1px solid white;
+border-radius: 50px;
+padding: 6px 27px;
+}
+
+/*body {
+    height: 100vh;
+    width: 100vh;
+    align-content: center;
+    display: contents;
+}*/
+/*html {*/
+    /*background-color:aquamarine;*/
+    /*background-image: url("reg background.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.add-new-emp-container {
+    background-color: #e1e1e1;
+    padding-left: 107px !important;
+    padding-right: 93px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    margin-top: 12%;
+    border-radius: 170px 0px 170px 0px;
+}

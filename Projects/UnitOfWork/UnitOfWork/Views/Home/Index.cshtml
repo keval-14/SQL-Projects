@@ -1,0 +1,133 @@
+﻿@model UnitOfWork.Models.ViewModel;
+
+@{
+    ViewData["Title"] = "View";
+    Layout = "";
+}
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FirstProject</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @*<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />*@
+    <link rel="stylesheet" href="~/FirstProject.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="~/css/TableCss.css">
+    <link rel="stylesheet" href="~/css/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+</head>
+<div class="container mt-5">
+
+<h1 class="mt-5">List of All Employees</h1>
+
+<p>
+    <a asp-action="AddNewEmployee">Create New</a>
+</p>
+<table class="table table-auto ">
+    <thead>
+        <tr>
+            <th>
+                FirstName
+            </th>
+            <th>
+                LastName
+            </th>
+            <th>
+                Gender
+            </th>
+            <th>
+                DOB
+            </th>
+            <th>
+                Dept. Id
+            </th>
+            <th>
+                Salary
+            </th>
+            <th>
+               Email
+            </th>
+            <th>
+                City
+            </th>
+            <th>
+                Pin Code
+            </th>
+            <th>
+               Is Active
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Employees) {
+                <tr>
+                  @*  @{
+                        var mId = item.cityId;
+                        var titleId = item.cityId + "m-title";
+                        
+                    }
+            <td id=@titleId>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateofBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DepartmentId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CityId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PinCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            <td>
+                @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+
+
+                <a asp-controller="CRUD" asp-action="Edit" asp-route-id="">
+                <i class="fa-solid fa-eye" style="color:black"></i>   
+                </a>
+                |
+                <a asp-controller="CRUD" asp-action="Edit" asp-route-id="">
+                <i class="fas fa-edit"></i>   
+                </a>
+                |
+                <a asp-controller="Home" asp-action="DeleteEmployee" asp-route-EmpId="@item.EmployeeId">
+                <i class="fa fa-trash" style="color:red"></i>
+                </a>
+                
+
+
+                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @*@await RenderSectionAsync("Scripts", required: false)*@

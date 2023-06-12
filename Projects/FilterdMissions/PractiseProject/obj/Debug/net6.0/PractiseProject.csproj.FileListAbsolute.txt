@@ -1,0 +1,357 @@
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\appsettings.json
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.staticwebassets.runtime.json
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.exe
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.deps.json
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.runtimeconfig.json
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\ref\PractiseProject.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.pdb
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.AssemblyReference.cache
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.AssemblyInfoInputs.cache
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.AssemblyInfo.cs
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.CoreCompileInputs.cache
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.RazorAssemblyInfo.cache
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.RazorAssemblyInfo.cs
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\scopedcss\bundle\PractiseProject.styles.css
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\scopedcss\projectbundle\PractiseProject.bundle.scp.css
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\ref\PractiseProject.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.pdb
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.genruntimeconfig.cache
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Humanizer.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.CopyComplete
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Project.Entities.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Project.Repository.dll
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Project.Entities.pdb
+C:\Users\pci243\Desktop\MyWork\Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Project.Repository.pdb
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\appsettings.json
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.staticwebassets.runtime.json
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.exe
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.deps.json
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.runtimeconfig.json
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\ref\PractiseProject.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.pdb
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Humanizer.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Project.Entities.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Project.Repository.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Project.Entities.pdb
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Project.Repository.pdb
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.AssemblyReference.cache
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.AssemblyInfoInputs.cache
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.AssemblyInfo.cs
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.CoreCompileInputs.cache
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.RazorAssemblyInfo.cache
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.RazorAssemblyInfo.cs
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\scopedcss\bundle\PractiseProject.styles.css
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\scopedcss\projectbundle\PractiseProject.bundle.scp.css
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.CopyComplete
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\ref\PractiseProject.dll
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.pdb
+C:\Users\pci243\Desktop\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.genruntimeconfig.cache
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.AssemblyReference.cache
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.AssemblyInfoInputs.cache
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.AssemblyInfo.cs
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.CoreCompileInputs.cache
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.MvcApplicationPartsAssemblyInfo.cache
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.RazorAssemblyInfo.cache
+D:\MyWork\tatvasoft_traning\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.RazorAssemblyInfo.cs
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.AssemblyReference.cache
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.AssemblyInfoInputs.cache
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.AssemblyInfo.cs
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.CoreCompileInputs.cache
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.RazorAssemblyInfo.cache
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.RazorAssemblyInfo.cs
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\appsettings.Development.json
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\appsettings.json
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.staticwebassets.runtime.json
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.exe
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.deps.json
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.runtimeconfig.json
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\PractiseProject.pdb
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Azure.Core.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Azure.Identity.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Humanizer.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.CodeDom.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Text.Json.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Project.Entities.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Project.Repository.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Project.Entities.pdb
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\bin\Debug\net6.0\Project.Repository.pdb
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\staticwebassets\msbuild.PractiseProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\staticwebassets\msbuild.build.PractiseProject.props
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.PractiseProject.props
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.PractiseProject.props
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\staticwebassets.build.json
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\staticwebassets.development.json
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\scopedcss\bundle\PractiseProject.styles.css
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\scopedcss\projectbundle\PractiseProject.bundle.scp.css
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.CopyComplete
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\refint\PractiseProject.dll
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.pdb
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\PractiseProject.genruntimeconfig.cache
+C:\Tatvasoft\Sample Project\SolutionPractiseProject\PractiseProject\obj\Debug\net6.0\ref\PractiseProject.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\appsettings.Development.json
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\appsettings.json
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\PractiseProject.staticwebassets.runtime.json
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\PractiseProject.exe
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\PractiseProject.deps.json
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\PractiseProject.runtimeconfig.json
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\PractiseProject.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\ref\PractiseProject.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\PractiseProject.pdb
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Azure.Core.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Azure.Identity.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Humanizer.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\System.CodeDom.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\System.Memory.Data.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\System.Text.Json.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Project.Entities.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Project.Repository.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Project.Entities.pdb
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\bin\Debug\net6.0\Project.Repository.pdb
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.AssemblyReference.cache
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\PractiseProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\PractiseProject.AssemblyInfoInputs.cache
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\PractiseProject.AssemblyInfo.cs
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.CoreCompileInputs.cache
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\PractiseProject.MvcApplicationPartsAssemblyInfo.cache
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\PractiseProject.RazorAssemblyInfo.cache
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\PractiseProject.RazorAssemblyInfo.cs
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\staticwebassets.build.json
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\staticwebassets.development.json
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\scopedcss\bundle\PractiseProject.styles.css
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\scopedcss\projectbundle\PractiseProject.bundle.scp.css
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\PractiseProject.csproj.CopyComplete
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\PractiseProject.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\ref\PractiseProject.dll
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\PractiseProject.pdb
+D:\tatvasoft\training\sql\Projects\FilterdMissions\PractiseProject\obj\Debug\net6.0\PractiseProject.genruntimeconfig.cache

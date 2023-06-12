@@ -1,0 +1,191 @@
+﻿@using FirstProject.Common
+@model FirstProject.Models.ShowPaging;
+<style>
+    th {
+        cursor: pointer;
+    }
+
+    .sort-arrow {
+        display: flex;
+        flex-direction: column;
+    }
+    .fa-caret-down{
+        margin-top: -7px;
+    }
+    .active-arrow{
+        color: #000000 !important;
+    }
+
+  .deactive-arrow{
+      color: #a7a7a7 !important;
+  }
+   
+</style>
+<table class="table table-auto ">
+    <thead>
+        <tr>
+            <th id="FirstName" value="true" onclick="sortData('FirstName')">
+                <div style="display:flex">
+
+                FirstName <span class="sort-arrow ms-2">
+                    <i class="fa fa-caret-up .active-arrow" id="FirstName-Asc" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down .active-arrow" id="FirstName-Desc" aria-hidden="true"></i>
+                </span>
+                </div>
+            </th>
+            <th id="LastName" value="true" onclick="sortData('LastName')">
+                <div style="display:flex">
+                LastName <span class="sort-arrow ms-2">
+                    <i class="fa fa-caret-up .active-arrow" id="LastName-Asc" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down .active-arrow" id="LastName-Desc" aria-hidden="true"></i>
+                </span>
+                </div>
+
+            </th>
+            <th id="Gender" value="true" onclick="sortData('Gender')">
+                  <div style="display:flex">Gender
+                 <span class="sort-arrow ms-2">
+                    <i class="fa fa-caret-up .active-arrow" id="Gender-Asc" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down .active-arrow" id="Gender-Desc" aria-hidden="true"></i>
+                </span>
+                </div>
+            </th>
+            <th id="DateofBirth" value="true" onclick="sortData('DateofBirth')">
+                  <div style="display:flex">DOB
+                 <span class="sort-arrow ms-2">
+                    <i class="fa fa-caret-up .active-arrow" id="DateofBirth-Asc" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down .active-arrow" id="DateofBirth-Desc" aria-hidden="true"></i>
+                </span>
+                </div>
+            </th>
+            <th id="DepartmentId" value="true" onclick="sortData('DepartmentId')">
+                  <div style="display:flex">Dept. Id
+                 <span class="sort-arrow ms-2">
+                    <i class="fa fa-caret-up .active-arrow" id="DepartmentId-Asc" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down .active-arrow" id="DepartmentId-Desc" aria-hidden="true"></i>
+                </span>
+                </div>
+            </th>
+            <th id="Salary" value="true" onclick="sortData('Salary')">
+                  <div style="display:flex">Salary
+                 <span class="sort-arrow ms-2">
+                    <i class="fa fa-caret-up .active-arrow" id="Salary-Asc" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down .active-arrow" id="Salary-Desc" aria-hidden="true"></i>
+                </span>
+                </div>
+            </th>
+            <th id="Address" value="true" onclick="sortData('Address')">
+                  <div style="display:flex">Email
+                 <span class="sort-arrow ms-2">
+                    <i class="fa fa-caret-up .active-arrow" id="Address-Asc" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down .active-arrow" id="Address-Desc" aria-hidden="true"></i>
+                </span>
+                </div>
+            </th>
+            <th id="CityId" value="true" onclick="sortData('CityId')">
+                  <div style="display:flex">City
+                 <span class="sort-arrow ms-2">
+                    <i class="fa fa-caret-up .active-arrow" id="CityId-Asc" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down .active-arrow" id="CityId-Desc" aria-hidden="true"></i>
+                </span>
+                </div>
+            </th>
+            <th id="PinCode" value="true" onclick="sortData('PinCode')">
+                 <div style="display:flex">Pin Code 
+                 <span class="sort-arrow ms-2">
+                    <i class="fa fa-caret-up .active-arrow" id="PinCode-Asc" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down .active-arrow" id="PinCode-Desc" aria-hidden="true"></i>
+                </span>
+                </div>
+            </th>
+            <th id="IsActive" value="true" onclick="sortData('IsActive')">
+                  <div style="display:flex">Is Active
+                 <span class="sort-arrow ms-2">
+                    <i class="fa fa-caret-up .active-arrow" id="IsActive-Asc" aria-hidden="true"></i>
+                    <i class="fa fa-caret-down .active-arrow" id="IsActive-Desc" aria-hidden="true"></i>
+                </span>
+                </div>
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+
+
+    <tbody>
+
+        @foreach (var item in Model.AddNewEmployee)
+        {
+            <tr>
+                @*  @{
+                    var mId = item.cityId;
+                    var titleId = item.cityId + "m-title";
+
+                    }
+                    <td id=@titleId>*@
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.firstName)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.lastName)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.gender)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.dateOfBirth)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.departmentId)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.salary)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.address)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.cityId)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.pinCode)
+                </td>
+                <td class="data">
+                    @Html.DisplayFor(modelItem => item.isActive)
+                </td>
+                <td>
+                    @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+
+                    <button id=@item.EmployeeID class="save">Save</button>
+                    
+                    <a class="view">
+                        <i class="fa-solid fa-eye" style="color:black"></i>
+                    </a>
+                    <span class="v-line">|</span>
+                   
+                    <a class="edit">
+                        <i class="fas fa-edit"></i>
+                    </a>
+                    <span class="v-line">|</span>
+                    @*<a asp-controller="CRUD" asp-action="DeleteEmployee" asp-route-EmpId="@item.EmployeeID">
+                        <i class="fa fa-trash" style="color:red"></i>
+                        </a>*@
+                    <a class="delete" onclick="deleteEmployeeById(@item.EmployeeID)">
+                        <i class="fa fa-trash" style="color:red"></i>
+                    </a>
+                    
+
+
+
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    @Html.PageLinks(@Model.PageInfo)
+</div>
