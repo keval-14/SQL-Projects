@@ -137,10 +137,10 @@ namespace Project.Repository.Repository
 
 
                     var text = dbConnection.Query("SP_UpdateEmployee", param, commandType: CommandType.StoredProcedure);
-                    var Responce = param.Get<int>("@output");
+                    var Responce = param.Get<string>("@output");
 
                     dbConnection.Close();
-                    if (Responce == 1)
+                    if (Responce == "1")
                     {
 
                         return 1;

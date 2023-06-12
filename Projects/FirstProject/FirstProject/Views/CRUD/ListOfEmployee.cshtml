@@ -202,8 +202,8 @@
         var empDetails = [];
           $('input').each(function() {
             var content = $(this).val();
-            $(this).html(content);
-            $(this).contents().unwrap();
+            //$(this).html(content);
+            //$(this).contents().unwrap();
             empDetails.push(content);
           });
             
@@ -214,7 +214,8 @@
                 data: { EmployeeData:empDetails, empId:EmpId},
                 dataType: "html",
                 success: function (responce) {
-                    var toastMixin = Swal.mixin({
+                    if(responce == 1){
+                        var toastMixin = Swal.mixin({
                                                     toast: true,
                                                     icon: 'success',
                                                     title: 'General Title',
@@ -233,17 +234,49 @@
                                                     animation: true,
                                                     title: 'Updated!!'
                                                     });
+                                                    $('input').each(function() {
+                                                        var content = $(this).val();
+                                                        $(this).html(content);
+                                                        $(this).contents().unwrap();
+                                                      });
+                                                      $('#'+ EmpId).siblings('.view').show();
+                                                      $('#'+ EmpId).siblings('.edit').show();
+                                                      $('#'+ EmpId).siblings('.delete').show();
+                                                      $('#'+ EmpId).siblings('.v-line').show();
+                                                      $('#'+ EmpId).hide();
+                    }
+                    else{
+                        var toastMixin = Swal.mixin({
+                                                    toast: true,
+                                                    icon: 'error',
+                                                    title: 'General Title',
+                                                    animation: false,
+                                                    position: 'top-right',
+                                                    showConfirmButton: false,
+                                                    timer: 2500,
+                                                    timerProgressBar: true,
+                                                    didOpen: (toast) => {
+                                                        toast.addEventListener('mouseenter', Swal.stopTimer)
+                                                        toast.addEventListener('mouseleave', Swal.resumeTimer)
+                                                    }
+                                                    });
 
-                                            paginationData(1);
+                                                    toastMixin.fire({
+                                                    animation: true,
+                                                    title: 'Age must be greater than 18 years...!'
+                                                    });
+                    }
+                    //paginationData(1);
+                    
                     }
              });
 
-          console.log(empDetails[0]);
-          $(this).siblings('.view').show();
-          $(this).siblings('.edit').show();
-          $(this).siblings('.delete').show();
-          $(this).siblings('.v-line').show();
-          $(this).hide();
+          //console.log(empDetails[0]);
+          //$(this).siblings('.view').show();
+          //$(this).siblings('.edit').show();
+          //$(this).siblings('.delete').show();
+          //$(this).siblings('.v-line').show();
+          //$(this).hide();
 
         });
 </script>

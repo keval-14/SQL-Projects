@@ -123,7 +123,7 @@ namespace FirstProject.Controllers
             var newEmpAdd = _CRUDRepository.UpdateEmployee(EmployeeData, empId);
 
 
-            return Json(true);
+            return Json(newEmpAdd);
         }
 
 
