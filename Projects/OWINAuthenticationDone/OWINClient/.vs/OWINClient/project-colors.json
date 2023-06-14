@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a180f281-99ca-4c37-af77-3ab2b83431af": {
+      "ProjectGuid": "a180f281-99ca-4c37-af77-3ab2b83431af",
+      "DisplayName": "OWINClient",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

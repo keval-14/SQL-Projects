@@ -72,3 +72,11 @@ D:\tatvasoft\training\sql\Projects\CodeFirstApproach\CodeFirstApproach\obj\Debug
 D:\tatvasoft\training\sql\Projects\CodeFirstApproach\CodeFirstApproach\obj\Debug\net6.0\ref\CodeFirstApproach.dll
 D:\tatvasoft\training\sql\Projects\CodeFirstApproach\CodeFirstApproach\obj\Debug\net6.0\CodeFirstApproach.pdb
 D:\tatvasoft\training\sql\Projects\CodeFirstApproach\CodeFirstApproach\obj\Debug\net6.0\CodeFirstApproach.genruntimeconfig.cache
+D:\tatvasoft\training\sql\Projects\CodeFirstApproach\CodeFirstApproach\bin\Debug\net6.0\Humanizer.dll
+D:\tatvasoft\training\sql\Projects\CodeFirstApproach\CodeFirstApproach\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\tatvasoft\training\sql\Projects\CodeFirstApproach\CodeFirstApproach\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\tatvasoft\training\sql\Projects\CodeFirstApproach\CodeFirstApproach\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\tatvasoft\training\sql\Projects\CodeFirstApproach\CodeFirstApproach\bin\Debug\net6.0\System.CodeDom.dll
+D:\tatvasoft\training\sql\Projects\CodeFirstApproach\CodeFirstApproach\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\tatvasoft\training\sql\Projects\CodeFirstApproach\CodeFirstApproach\bin\Debug\net6.0\System.Text.Json.dll
+D:\tatvasoft\training\sql\Projects\CodeFirstApproach\CodeFirstApproach\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

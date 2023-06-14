@@ -125,7 +125,7 @@ namespace Project.Repository.Repository
                     param.Add("@FirstName", EmployeeData[0] ?? (object)DBNull.Value);
                     param.Add("@LastName", EmployeeData[1] ?? (object)DBNull.Value);
                     param.Add("@Gender", EmployeeData[2]);
-                    param.Add("@DateofBirth", EmployeeData[3]);
+                    param.Add("@DateofBirth", Convert.ToDateTime(EmployeeData[3]));
                     param.Add("@DepartmentId", EmployeeData[4]);
                     param.Add("@Salary", EmployeeData[5]);
                     param.Add("@Address", EmployeeData[6]);

@@ -1,0 +1,113 @@
+{
+  "version": 6,
+  "entities": [
+    {
+      "entity": {
+        "type": "Project",
+        "id": "3f75af3a-ae8b-4309-8161-c2d61bce040d",
+        "name": "OWIN"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": [
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "grant_type",
+                    "value": "password"
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "username",
+                    "value": "jignesh"
+                  },
+                  {
+                    "enabled": true,
+                    "type": "Text",
+                    "name": "password",
+                    "value": "user123456"
+                  }
+                ]
+              },
+              "bodyType": "Form",
+              "textBody": "grant_type=password&username=jignesh&password=12345"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "localhost:44381",
+              "path": "/oauth/token"
+            },
+            "id": "fcf03aa4-9773-4c13-98ce-0c9a55e94730",
+            "name": "OWINAuth",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+              "name": "GET"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "localhost:44381",
+              "path": "//api/TestMethod"
+            },
+            "id": "6a3311de-d158-4d4e-879d-784a35ed820a",
+            "name": "TestMethod",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Authorization",
+                "value": "Bearer W917p9Mfb39iYCtWFNFpAEFwIaLHPqzfKEZKL-39O2iZrRfhho963MzbWZZ65DNeS4UiWFqWCTpx9KJpQ4EknRidP_zf1FCSWPb4yJJjdy1b0TBAcNHwh0tGdqtYiMZn5KZXZgJqbA-EewiZu3XT7qUeMa_Vek2GdEgS5wngwJFQvHz89eRblJq47JnCqV-sjTIHXqyWnOBseFiblZFIWKknOBuFO-WrDAXBG9MTwaT8k-Cjeg4vjegJQBl9ZoAkM0w4tRlKuQ67icu7honvtpphRQvjSFIq6qY4uw_GxxomTdDGV78h6IrA-IpnxV1LwgbqwIuucpodWzwmty1FjQ5YF-5WQsR1iZTJqT2HQGBxeBmmVhfXo3xktx27RkgUCZ8rVCK2WYn3MkEfO9By1VL5JIEwrhUZeOTZpPLrP-pH-Jf3xl7opIa8tzSup81TXUB_08FZlcA7X1ecY3H516Rss77uLwPw7y2F01RpUPA"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

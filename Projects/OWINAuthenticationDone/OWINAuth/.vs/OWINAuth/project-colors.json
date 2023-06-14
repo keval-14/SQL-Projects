@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ecd5fdca-7a02-4f86-bff8-a2cf7b57da9c": {
+      "ProjectGuid": "ecd5fdca-7a02-4f86-bff8-a2cf7b57da9c",
+      "DisplayName": "OWINAuth",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "ac7c3afc-a7b8-4030-851f-d4b35b40cb9c": {
+      "ProjectGuid": "ac7c3afc-a7b8-4030-851f-d4b35b40cb9c",
+      "DisplayName": "OWINClient",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -21,6 +21,30 @@ namespace CodeFirstApproach.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("CodeFirstApproach.Models.Categories", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryId"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CategoryId");
+
+                    b.ToTable("categories");
+                });
+
             modelBuilder.Entity("CodeFirstApproach.Models.Items", b =>
                 {
                     b.Property<long>("Item_Id")
@@ -29,8 +53,10 @@ namespace CodeFirstApproach.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Item_Id"));
 
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Item_Description")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Item_Name")
@@ -51,12 +77,15 @@ namespace CodeFirstApproach.Migrations
 
                     b.HasKey("Item_Id");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("Items");
 
                     b.HasData(
                         new
                         {
                             Item_Id = 1L,
+                            CategoryId = 2,
                             Item_Description = "Food product made from cocoa beans, consumed as candy and used to make beverages and to flavour or coat various confections and bakery products. Rich in carbohydrates, it has several health benefits and is an excellent source of quick energy.",
                             Item_Name = "Chocolate",
                             Item_Price = 250L,
@@ -64,6 +93,17 @@ namespace CodeFirstApproach.Migrations
                             Item_SSNCode = 32507,
                             Item_Status = 1
                         });
+                });
+
+            modelBuilder.Entity("CodeFirstApproach.Models.Items", b =>
+                {
+                    b.HasOne("CodeFirstApproach.Models.Categories", "Categories")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Categories");
                 });
 #pragma warning restore 612, 618
         }
