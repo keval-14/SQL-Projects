@@ -45,6 +45,11 @@ namespace FirstProject.Controllers
 
         #endregion
 
+
+        public IActionResult CallAPI()
+        {
+            return View();
+        }
         #region privacy and err
         public IActionResult Privacy()
         {

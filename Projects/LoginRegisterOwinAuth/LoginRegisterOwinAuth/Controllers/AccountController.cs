@@ -29,6 +29,7 @@
         {
         }
         #endregion
+
         #region Login methods    
         /// <summary>  
         /// GET: /Account/Login    
@@ -99,6 +100,7 @@
             return this.View(model);
         }
         #endregion
+
         #region Log Out method.    
         /// <summary>  
         /// POST: /Account/LogOff    
@@ -125,7 +127,9 @@
             return this.RedirectToAction("Login", "Account");
         }
         #endregion
-        #region Helpers    
+
+        #region Helpers   
+        
         #region Sign In method.    
         /// <summary>  
         /// Sign In User method.    
@@ -153,6 +157,7 @@
             }
         }
         #endregion
+
         #region Redirect to local method.    
         /// <summary>  
         /// Redirect to local method.    
@@ -179,6 +184,7 @@
             return this.RedirectToAction("Index", "Home");
         }
         #endregion
+
         #endregion
     }
 }

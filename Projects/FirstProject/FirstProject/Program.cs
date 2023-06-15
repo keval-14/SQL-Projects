@@ -34,7 +34,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-pattern: "{controller=CRUD}/{action=ListOfEmployee}/{id?}");
+pattern: "{controller=Home}/{action=CallAPI}/{id?}");
 //pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
