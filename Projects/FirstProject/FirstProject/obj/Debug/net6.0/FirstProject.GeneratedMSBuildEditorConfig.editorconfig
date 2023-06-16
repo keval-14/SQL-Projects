@@ -23,8 +23,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxBZGROZXdFbXBsb3llZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/tatvasoft/training/sql/Projects/FirstProject/FirstProject/Views/CRUD/HomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxIb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/tatvasoft/training/sql/Projects/FirstProject/FirstProject/Views/CRUD/ListOfEmployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxMaXN0T2ZFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/tatvasoft/training/sql/Projects/FirstProject/FirstProject/Views/CRUD/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/tatvasoft/training/sql/Projects/FirstProject/FirstProject/Views/Home/CallAPI.cshtml]

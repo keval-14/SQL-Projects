@@ -1,0 +1,36 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+  <head>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+<button type="button" onclick="callWebAPI('GetAllMissions','GET')">GetAllMissions</button>
+<button type="button" onclick="callWebAPI('MissionFilter','GET')">GetFilterdMissions</button>
+<button type="button" onclick="callWebAPI('AddMission','POST')">AddMissions</button>
+<button type="button" onclick="callWebAPI('UpdateMission','PUT')">UpdateMission</button>
+<button type="button" onclick="callWebAPI('DeleteMission','DELETE')">DeleteMission</button>
+
+<script>
+    function callWebAPI(endPoint,method){
+        //alert(endPoint+" "+method)
+        var urlEndPoint = "https://localhost:7182/api/MissionFilters/"+endPoint;
+        var token = localStorage.getItem("token");
+        $.ajax({
+                       url: urlEndPoint,
+                       type: method,
+                       contentType: "application/json",
+                       headers:{Authorization: `Bearer ${token}`},
+                       success: function (response) {
+                           alert("Access Granted...!")
+                           
+                       },
+                       error:function (response) {
+                           alert("Access Denied or You're not Admin...!")
+                       }
+                   });
+    }
+</script>

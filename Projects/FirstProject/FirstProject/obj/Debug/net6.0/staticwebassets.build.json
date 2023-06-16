@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tXDORqQfH2haFR+ycmen+1b0pOZHl7L4KnJDthiIPq0=",
+  "Hash": "UJYd1OJdRxG8Mr//wDrqAz6bxzGWX+AbZG9GV+7qksU=",
   "Source": "FirstProject",
   "BasePath": "_content/FirstProject",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Background.css"
+    },
+    {
+      "Identity": "D:\\tatvasoft\\training\\sql\\Projects\\FirstProject\\FirstProject\\wwwroot\\css\\loginstyle.css",
+      "SourceId": "FirstProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\tatvasoft\\training\\sql\\Projects\\FirstProject\\FirstProject\\wwwroot\\",
+      "BasePath": "_content/FirstProject",
+      "RelativePath": "css/loginstyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\loginstyle.css"
     },
     {
       "Identity": "D:\\tatvasoft\\training\\sql\\Projects\\FirstProject\\FirstProject\\wwwroot\\css\\reg background.jpg",

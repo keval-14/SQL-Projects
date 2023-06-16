@@ -15,75 +15,73 @@
 </button>
 
 <script>
-        //function CallAPI(){
+          //function CallAPI(){
 
 
-        //    const params = {
-        //        missionId: 10
-        //            };
-        //    //const options = {
-        //    //    method: 'POST',
-        //    //    data:params,
-        //    //    mode: 'no-cors'
-        //    //};
-        //    //fetch('https://localhost:7182/api/MissionFilters/GetDataAll', options).then( response => response.json() ).catch(error => console.log(error));
+          //    const params = {
+          //        missionId: 10
+          //            };
+          //    //const options = {
+          //    //    method: 'POST',
+          //    //    data:params,
+          //    //    mode: 'no-cors'
+          //    //};
+          //    //fetch('https://localhost:7182/api/MissionFilters/GetDataAll', options).then( response => response.json() ).catch(error => console.log(error));
 
 
-        //    $.ajax({
-        //             url: 'https://localhost:7182/api/MissionFilters/GetDataAll',
-        //             type: 'POST',
-        //             headers: {
-        //            'Access-Control-Allow-Origin': '*'
-        //                },
-        //             dataType: 'json',
-        //             data: params,
-        //             success: function (data, textStatus, xhr) {
-        //                 console.log(data);
-        //             },
-        //             error: function (xhr, textStatus, errorThrown) {
-        //                 console.log('Error in Operation');
-        //             }
-        //         });
-        //}
-
-       
+          //    $.ajax({
+          //             url: 'https://localhost:7182/api/MissionFilters/GetDataAll',
+          //             type: 'POST',
+          //             headers: {
+          //            'Access-Control-Allow-Origin': '*'
+          //                },
+          //             dataType: 'json',
+          //             data: params,
+          //             success: function (data, textStatus, xhr) {
+          //                 console.log(data);
+          //             },
+          //             error: function (xhr, textStatus, errorThrown) {
+          //                 console.log('Error in Operation');
+          //             }
+          //         });
+          //}
 
 
-  //      const CallAPI = async () => {
-  //      const params = {
-  //             "missionId": 10
-  //              };
-  //        const response = await fetch('https://localhost:7182/api/MissionFilters/GetDataAll',{    
-  //    method: 'POST',    
-  //    withCredentials: true,    
-  //    crossorigin: true,
-  //    data:params
-  //  })
-  //  console.log(response)       
-  //};   
-        
 
-  function CallAPI(){
-      const params = {
-            "missionId": 10
-              };
 
-      $.ajax({
-                     url: 'https://localhost:7182/api/MissionFilters/GetDataAll',
-                     type: 'POST',
-                     contentType: "application/json",
-                     headers: {
-                    'Access-Control-Allow-Origin': '*'
-                        },
-                     data: params,
-                     success: function (data, textStatus, xhr) {
-                         console.log(data);
-                     },
-                     error: function (xhr, textStatus, errorThrown) {
-                         console.log('Error in Operation');
-                     }
-                 });
-  }
+    //      const CallAPI = async () => {
+    //      const params = {
+    //             "missionId": 10
+    //              };
+    //        const response = await fetch('https://localhost:7182/api/MissionFilters/GetDataAll',{
+    //    method: 'POST',
+    //    withCredentials: true,
+    //    crossorigin: true,
+    //    data:params
+    //  })
+    //  console.log(response)
+    //};
+
+
+    function CallAPI(){
+        const params = {
+              "missionId": 10,
+              "name":"keval"
+                };
+
+        $.ajax({
+                       url: 'https://localhost:7182/api/MissionFilters/GetDataAll',
+                       type: 'POST',
+                       contentType: "application/json",
+                       data: JSON.stringify(params),
+                       success: function (data, textStatus, xhr) {
+                           console.log(data);
+                       },
+                       error: function (xhr, textStatus, errorThrown) {
+                           console.log(xhr);
+                       }
+                   });
+    }
 
 
 </script>

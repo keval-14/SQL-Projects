@@ -68,6 +68,41 @@ namespace Project.Repository.Repository
 
         #endregion
 
+        #region 
+        public int Login(Login login)
+        {
+            try
+            {
+                using (IDbConnection dbConnection = Connection)
+                {
+                    dbConnection.Open();
+                    DynamicParameters param = new DynamicParameters();
+                    param.Add("@userEmail", login.Email ?? (object)DBNull.Value);
+                    param.Add("@password", login.Password ?? (object)DBNull.Value);
+
+
+                    var text = dbConnection.Query("LoginByUsernamePassword", param, commandType: CommandType.StoredProcedure);
+
+                    dbConnection.Close();
+                    if (text.Count() >= 1)
+                    {
+
+                        return 1;
+                    }
+                    else
+                    {
+                        return 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                string errMsg = ex.Message;
+                return 0;
+            }
+        }
+        #endregion
+
         #region AddNewEmp
 
         public string AddNewEmp(AddNewEmployee newEmp)

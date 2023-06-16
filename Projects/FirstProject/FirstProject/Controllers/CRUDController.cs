@@ -79,6 +79,18 @@ namespace FirstProject.Controllers
 
         #endregion
 
+        #region
+        public IActionResult Login()
+        {
+            return View();
+        }
+        #endregion
+
+        public IActionResult HomePage()
+        {
+            return View();
+        }
+
         #region Add New Emp
 
         public IActionResult AddNewEmployee()

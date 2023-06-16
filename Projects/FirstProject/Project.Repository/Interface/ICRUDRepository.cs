@@ -10,6 +10,7 @@ namespace Project.Repository.Interface
 {
     public interface ICRUDRepository
     {
+        public int Login(Login login);
         public string AddNewEmp(AddNewEmployee newEmp);
         public int UpdateEmployee(string[] EmployeeData, int empId);
         public string DeleteEmployee(int EmpId);
