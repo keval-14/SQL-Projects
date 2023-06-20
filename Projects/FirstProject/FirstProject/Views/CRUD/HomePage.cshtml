@@ -8,11 +8,15 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
+  <div class="mt-3">
+
 <button type="button" onclick="callWebAPI('GetAllMissions','GET')">GetAllMissions</button>
 <button type="button" onclick="callWebAPI('MissionFilter','GET')">GetFilterdMissions</button>
 <button type="button" onclick="callWebAPI('AddMission','POST')">AddMissions</button>
 <button type="button" onclick="callWebAPI('UpdateMission','PUT')">UpdateMission</button>
 <button type="button" onclick="callWebAPI('DeleteMission','DELETE')">DeleteMission</button>
+<button type="button" style="float: right;" onclick="logOut()">LogOut</button>
+  </div>
 
 <script>
     function callWebAPI(endPoint,method){
@@ -32,5 +36,11 @@
                            alert("Access Denied or You're not Admin...!")
                        }
                    });
+    }
+
+    function logOut(){
+        localStorage.removeItem("token");
+        //alert(localStorage.getItem("token"));
+        window.location.href = "/CRUD/Login"
     }
 </script>

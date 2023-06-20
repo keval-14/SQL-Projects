@@ -4,7 +4,9 @@ using Project.Entities.Request;
 using Project.Repository.Interface;
 using System.Diagnostics;
 using Microsoft.Extensions.Configuration;
-
+using System.Data.SqlClient;
+using System.Data;
+using Dapper;
 
 namespace FirstProject.Controllers
 {
@@ -45,11 +47,62 @@ namespace FirstProject.Controllers
 
         #endregion
 
+        #region test output param 
 
         public IActionResult CallAPI()
         {
             return View();
         }
+
+
+        public IActionResult TransferData()
+        {
+            var connTrue = "Server=PCI53\\SQL2019;Initial Catalog=SQL-Practice;Persist Security Info=False;User ID=sa;Password=Tatva@123;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=False;Connection Timeout=60;";
+            using (var connection = new SqlConnection(connTrue))
+            {
+                var parameters = new DynamicParameters();
+                parameters.Add("@outPut", dbType: DbType.String, direction: ParameterDirection.Output, size: 200);
+
+                connection.Execute("SP_InsertOrUpdateIntoEmployeeTempTbl", parameters, commandType: CommandType.StoredProcedure);
+
+                var message = parameters.Get<string>("@outPut");
+            }
+
+        #region ado testing for output param
+            SqlConnection conn = new SqlConnection(connTrue);
+            try
+            {
+                SqlParameter count = new SqlParameter
+                {
+                    ParameterName = "@outPut",
+                    DbType = DbType.String,
+                    Direction = ParameterDirection.Output
+                };
+                SqlCommand cmd = new SqlCommand("SP_InsertOrUpdateIntoEmployeeTempTbl", conn);
+
+                cmd.CommandType = CommandType.StoredProcedure;
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                //conn.Execute("SP_InsertOrUpdateIntoEmployeeTempTbl", count, commandType: CommandType.StoredProcedure);
+                var message = Convert.ToString(count.Value);
+                conn.Close();
+                //connTrue = "1";
+
+                connTrue = message;
+
+            }
+            catch (Exception ex)
+            {
+                connTrue = "Connection is not Established with DataBase";
+                EventLog.WriteEntry("Error", ex.Message, EventLogEntryType.Warning);
+            }
+            return View();
+        }
+        #endregion
+
+
+        #endregion
+
         #region privacy and err
         public IActionResult Privacy()
         {
