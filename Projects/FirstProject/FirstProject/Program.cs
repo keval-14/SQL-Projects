@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Project.Entites.CIDbContext;
+using Project.Entities.CIDbContext;
 using Project.Repository.Interface;
 using Project.Repository.Repository;
 
@@ -34,8 +34,8 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-pattern: "{controller=CRUD}/{action=Login}/{id?}");
-//pattern: "{controller=Home}/{action=Index}/{id?}");
+//pattern: "{controller=CRUD}/{action=Login}/{id?}");
+pattern: "{controller=Home}/{action=Index}/{id?}");
 //pattern: "{controller=Home}/{action=TransferData}/{id?}");
 
 

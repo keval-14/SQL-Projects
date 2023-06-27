@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using Project.Entites.Models;
+using Project.Entities.Models;
 using Project.Entities.Request;
 
-namespace Project.Entites.CIDbContext;
+namespace Project.Entities.CIDbContext;
 
 public partial class CiMainContext : DbContext
 {
@@ -39,6 +39,8 @@ public partial class CiMainContext : DbContext
 
     public virtual DbSet<MissionApplication> MissionApplications { get; set; }
 
+    public virtual DbSet<MissionDetail> MissionDetails { get; set; }
+
     public virtual DbSet<MissionDocument> MissionDocuments { get; set; }
 
     public virtual DbSet<MissionInvite> MissionInvites { get; set; }
@@ -68,6 +70,9 @@ public partial class CiMainContext : DbContext
     public virtual DbSet<User> Users { get; set; }
 
     public virtual DbSet<UserSkill> UserSkills { get; set; }
+
+    public virtual DbSet<VwGetMissionDatum> VwGetMissionData { get; set; }
+
     public virtual DbSet<MissionListModel> MissionListModels { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -467,6 +472,70 @@ public partial class CiMainContext : DbContext
                 .HasConstraintName("FK__mission_a__user___7A672E12");
         });
 
+        modelBuilder.Entity<MissionDetail>(entity =>
+        {
+            entity
+                .HasNoKey()
+                .ToView("MissionDetails");
+
+            entity.Property(e => e.Availability)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("availability");
+            entity.Property(e => e.CityId).HasColumnName("city_id");
+            entity.Property(e => e.CityName)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("cityName");
+            entity.Property(e => e.CountryId).HasColumnName("country_id");
+            entity.Property(e => e.CountryName)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("countryName");
+            entity.Property(e => e.CreatedAt)
+                .HasColumnType("datetime")
+                .HasColumnName("created_at");
+            entity.Property(e => e.Deadline)
+                .HasColumnType("datetime")
+                .HasColumnName("deadline");
+            entity.Property(e => e.DeletedAt)
+                .HasColumnType("datetime")
+                .HasColumnName("deleted_at");
+            entity.Property(e => e.Description).HasColumnName("description");
+            entity.Property(e => e.EndDate)
+                .HasColumnType("datetime")
+                .HasColumnName("end_date");
+            entity.Property(e => e.MissionId).HasColumnName("mission_id");
+            entity.Property(e => e.MissionType)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("mission_type");
+            entity.Property(e => e.OrganizationDetail).HasColumnName("organization_detail");
+            entity.Property(e => e.OrganizationName)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("organization_name");
+            entity.Property(e => e.ShortDescription).HasColumnName("short_description");
+            entity.Property(e => e.StartDate)
+                .HasColumnType("datetime")
+                .HasColumnName("start_date");
+            entity.Property(e => e.Status)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("status");
+            entity.Property(e => e.ThemeId).HasColumnName("theme_id");
+            entity.Property(e => e.ThemeName)
+                .HasMaxLength(255)
+                .HasColumnName("themeName");
+            entity.Property(e => e.Title)
+                .HasMaxLength(128)
+                .IsUnicode(false)
+                .HasColumnName("title");
+            entity.Property(e => e.UpdatedAt)
+                .HasColumnType("datetime")
+                .HasColumnName("updated_at");
+        });
+
         modelBuilder.Entity<MissionDocument>(entity =>
         {
             entity.HasKey(e => e.MissionDocumentId).HasName("PK__mission___E80E0CC8B38AEF01");
@@ -592,9 +661,7 @@ public partial class CiMainContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("deleted_at");
             entity.Property(e => e.MissionId).HasColumnName("mission_id");
-            entity.Property(e => e.Rating)
-                .HasColumnType("decimal(5, 1)")
-                .HasColumnName("rating");
+            entity.Property(e => e.Rating).HasColumnName("rating");
             entity.Property(e => e.UpdatedAt)
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
@@ -1005,6 +1072,22 @@ public partial class CiMainContext : DbContext
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__user_skil__user___4B7734FF");
+        });
+
+        modelBuilder.Entity<VwGetMissionDatum>(entity =>
+        {
+            entity
+                .HasNoKey()
+                .ToView("VW_GetMissionData");
+
+            entity.Property(e => e.MissionTitle)
+                .HasMaxLength(128)
+                .IsUnicode(false)
+                .HasColumnName("Mission Title");
+            entity.Property(e => e.NoOfApplications).HasColumnName("No. of Applications");
+            entity.Property(e => e.NoOfDocs).HasColumnName("No. of Docs");
+            entity.Property(e => e.NoOfInvitations).HasColumnName("No. Of Invitations");
+            entity.Property(e => e.NoOfMedia).HasColumnName("No. of Media");
         });
 
         OnModelCreatingPartial(modelBuilder);

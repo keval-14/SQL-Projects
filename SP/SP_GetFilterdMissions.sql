@@ -6,7 +6,7 @@
 -- =======================================================================================================================================
 
 
---EXEC SP_GetFilterdMissions @searchTerm='pune', @minRating=2, @pageIndex=1, @pageSize=5
+--EXEC SP_GetFilterdMissions @searchTerm='pune', @pageIndex=1, @pageSize=5
 --EXEC SP_GetFilterdMissions @startDate = '2023-06-01', @endDate='2023-06-29', @pageIndex=1, @pageSize=5
 --EXEC SP_GetFilterdMissions @searchTerm='mexi', @startDate = '2023-05-28', @maxRating=3, @pageIndex=1, @pageSize=5
 --EXEC SP_GetFilterdMissions @startDate='2023-06-05',  @minRating=3, @pageIndex=1, @pageSize=5

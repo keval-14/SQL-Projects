@@ -3,7 +3,6 @@ D:\tatvasoft\training\sql\Projects\FirstProject\Project.Entites\bin\Debug\net6.0
 D:\tatvasoft\training\sql\Projects\FirstProject\Project.Entites\bin\Debug\net6.0\Project.Entities.dll
 D:\tatvasoft\training\sql\Projects\FirstProject\Project.Entites\bin\Debug\net6.0\ref\Project.Entities.dll
 D:\tatvasoft\training\sql\Projects\FirstProject\Project.Entites\bin\Debug\net6.0\Project.Entities.pdb
-D:\tatvasoft\training\sql\Projects\FirstProject\Project.Entites\obj\Debug\net6.0\Project.Entities.csproj.AssemblyReference.cache
 D:\tatvasoft\training\sql\Projects\FirstProject\Project.Entites\obj\Debug\net6.0\Project.Entities.GeneratedMSBuildEditorConfig.editorconfig
 D:\tatvasoft\training\sql\Projects\FirstProject\Project.Entites\obj\Debug\net6.0\Project.Entities.AssemblyInfoInputs.cache
 D:\tatvasoft\training\sql\Projects\FirstProject\Project.Entites\obj\Debug\net6.0\Project.Entities.AssemblyInfo.cs
@@ -12,3 +11,4 @@ D:\tatvasoft\training\sql\Projects\FirstProject\Project.Entites\obj\Debug\net6.0
 D:\tatvasoft\training\sql\Projects\FirstProject\Project.Entites\obj\Debug\net6.0\ref\Project.Entities.dll
 D:\tatvasoft\training\sql\Projects\FirstProject\Project.Entites\obj\Debug\net6.0\Project.Entities.pdb
 D:\tatvasoft\training\sql\Projects\FirstProject\Project.Entites\obj\Debug\net6.0\Project.Entities.genruntimeconfig.cache
+D:\tatvasoft\training\sql\Projects\FirstProject\Project.Entites\obj\Debug\net6.0\Project.Entities.csproj.AssemblyReference.cache

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Project.Entites.Models;
+namespace Project.Entities.Models;
 
 public partial class MissionRating
 {
@@ -11,7 +11,7 @@ public partial class MissionRating
 
     public long UserId { get; set; }
 
-    public decimal? Rating { get; set; }
+    public double? Rating { get; set; }
 
     public DateTime CreatedAt { get; set; }
 

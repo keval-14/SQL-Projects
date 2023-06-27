@@ -2,7 +2,7 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Project.Entites.CIDbContext;
+using Project.Entities.CIDbContext;
 using Project.Entities.Request;
 using Project.Entities.ViewModels;
 using Project.Repository.Interface;

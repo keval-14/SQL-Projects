@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Project.Entites.Models;
+namespace Project.Entities.Models;
 
 public partial class Comment
 {
