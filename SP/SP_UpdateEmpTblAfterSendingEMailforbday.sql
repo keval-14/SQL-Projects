@@ -9,8 +9,10 @@
 --SELECT * FROM dbo.Employee
 
 ALTER PROC SP_UpdateEmpTblAfterSendingEMail
-    (@EmployeeId INT,
-    @outPut INT OUT)
+(
+    @EmployeeId INT,
+    @outPut INT OUT
+)
 AS
 BEGIN
     UPDATE dbo.Employee
@@ -18,13 +20,15 @@ BEGIN
         MailSentDate = GETDATE()
     WHERE EmployeeId = @EmployeeId;
 
-    IF
-    (
-        SELECT CAST(MailSentDate AS DATE) FROM Employee WHERE EmployeeId = @EmployeeId
-    ) = CAST(GETDATE() AS DATE)
-    BEGIN
+    --IF
+    --(
+    --    SELECT CAST(MailSentDate AS DATE)
+    --    FROM Employee
+    --    WHERE EmployeeId = @EmployeeId
+    --) = CAST(GETDATE() AS DATE)
+    --BEGIN
         SET @outPut = 1;
-    END;
-    ELSE
-        SET @outPut = 0;
+    --END;
+    --ELSE
+    --    SET @outPut = 0;
 END;
